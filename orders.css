@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+.orders-main .main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F2F2F2;
+}
+
+.orders-main .main-container .side-section {
+  width: 350px;
+  background: white;
+  height: 100vh;
+}
+
+.orders-main .main-container .main-section {
+  padding: 15px;
+  width: 100%;
+}
+
+.orders-main .main-container .main-section .status-bar {
+  background: #F9F9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2px 10px;
+}
+
+.orders-main .main-container .main-section .status-bar .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.orders-main .main-container .main-section .status-bar .left {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  border-radius: 0 0 28px 0;
+  padding: 12px;
+}
+
+.orders-main .main-container .main-section .product-status-bar {
+  margin-top: 30px;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+.orders-main .main-container .main-section .product-status-bar .right {
+  background: #F9F9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 30px;
+  gap: 40px;
+  border-radius: 8px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.orders-main .main-container .main-section .product-status-bar .right span {
+  cursor: pointer;
+}
+
+.orders-main .main-container .main-section .product-status-bar .right span:hover {
+  color: #CD9D69;
+  border-bottom: 5px solid #CD9D69;
+}
+
+.orders-main .main-container .main-section .product-status-bar .left {
+  border-radius: 8px;
+  background: white;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 70px;
+  padding: 10px 25px;
+}
+
+.orders-main .main-container .main-section .product-status-bar .left input {
+  background: none;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.orders-main .main-container .main-section .product-status-bar .left img {
+  width: 30px;
+}
+
+.orders-main .main-container .main-section .cards-section {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.orders-main .main-container .main-section .cards-section .card {
+  background: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  width: calc(50% - 10px);
+}
+
+.orders-main .main-container .main-section .cards-section .card .top {
+  border-bottom: 1px dotted lightgrey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 25px;
+}
+
+.orders-main .main-container .main-section .cards-section .card .top .right p {
+  margin-bottom: 20px;
+}
+
+.orders-main .main-container .main-section .cards-section .card .top .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  color: #00C8DF;
+}
+
+.orders-main .main-container .main-section .cards-section .card .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+}
+
+.orders-main .main-container .main-section .cards-section .card .bottom .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+}
+
+.orders-main .main-container .main-section .cards-section .card .bottom .right > div p {
+  margin: 15px 0;
+}
+
+.orders-main .main-container .main-section .cards-section .card .bottom .left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  background: #E8FCED;
+  border: 1px dotted #00A427;
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=orders.css.map */

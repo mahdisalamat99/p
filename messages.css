@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+.messages-main .main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #F2F2F2;
+}
+
+.messages-main .main-container .side-section {
+  width: 350px;
+  background: white;
+  height: 100vh;
+}
+
+.messages-main .main-container .main-section {
+  width: 100%;
+  padding: 15px;
+}
+
+.messages-main .main-container .main-section .status-bar {
+  background: #F9F9F9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2px 10px;
+}
+
+.messages-main .main-container .main-section .status-bar .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.messages-main .main-container .main-section .status-bar .left {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  border-radius: 0 0 28px 0;
+  padding: 12px;
+}
+
+.messages-main .main-container .main-section .main-inner-container {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .search-create {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 10px;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .search-create .search-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 15px;
+  background: white;
+  padding: 10px 15px;
+  border-radius: 12px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .search-create .search-bar input {
+  border: none;
+  background: none;
+  outline: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .search-create button {
+  background: #CD9D69;
+  color: white;
+  font-family: inherit;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .cards-container .card {
+  margin-top: 20px;
+  background: white;
+  padding: 15px 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 70px;
+  border-radius: 12px;
+  opacity: 0.5;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .cards-container .card:nth-child(1) {
+  opacity: 1;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .cards-container .card .right span {
+  padding: 8 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .cards-container .card .right span:first-child {
+  display: block;
+  margin-bottom: 15px;
+  padding-right: 0;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .cards-container .card .right span:nth-child(2) {
+  color: white;
+  background: #4AECA8;
+}
+
+.messages-main .main-container .main-section .main-inner-container .right .cards-container .card .right span:nth-child(3) {
+  color: white;
+  background: #FF5656;
+}
+
+.messages-main .main-container .main-section .main-inner-container .left {
+  background: white;
+}
+/*# sourceMappingURL=messages.css.map */

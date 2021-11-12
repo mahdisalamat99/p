@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    direction: rtl;
+}
+.orders-main{
+    .main-container{
+        display: flex;
+        background: #F2F2F2;
+        .side-section{
+            width: 350px;
+            background: white;
+            height: 100vh;
+        }
+    
+        .main-section{
+            padding: 15px;
+            width: 100%;
+            .status-bar{
+                background: #F9F9F9;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 2px 10px;
+                .right{
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                }
+                .left{
+                    background: white;
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    border-radius: 0 0 28px 0;
+                    padding: 12px;
+                }
+            }
+
+            .product-status-bar{
+                margin-top: 30px;
+                border-radius: 12px;
+                display: flex;
+                align-items: stretch;
+                justify-content: space-between;
+                gap: 15px;
+                .right{
+                    background: #F9F9F9;
+                    display: flex;
+                    align-items: center;
+                    padding: 10px 30px;
+                    gap: 40px;
+                    border-radius: 8px;
+                    flex: 1;
+                    span{
+                        cursor: pointer;
+                        &:hover{
+                            color: #CD9D69;
+                            border-bottom: 5px solid #CD9D69;
+                        }
+                    }
+                }
+                
+                .left{
+                    border-radius: 8px;
+                    background: white;
+                    padding: 10px;
+                    display: flex;
+                    align-items: center;
+                    gap: 70px;
+                    padding: 10px 25px;
+                    input{
+                        background: none;
+                        border: none;
+                        outline: none;
+                        font-family: inherit;
+                        font-size: inherit;
+                    }
+                    img{
+                        width: 30px;
+                    }
+                }
+            }
+
+            .cards-section{
+                margin-top: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                flex-wrap: wrap;
+                .card{
+                    background: white;
+                    padding: 15px 25px;
+                    border-radius: 10px;
+                    // flex: 1;
+                    width: calc(50% - 10px);
+                    .top{
+                        border-bottom: 1px dotted lightgrey;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 25px;
+                        .right{
+                            p{
+                                margin-bottom: 20px;
+                            }
+                        }
+                        .left{
+                            display: flex;
+                            align-items: center;
+                            gap: 5px;
+                            color: #00C8DF;
+                            img{
+
+                            }
+                        }
+                    }
+                    .bottom{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        gap: 40px;
+                        .right{
+                            display: flex;
+                            align-items: center;
+                            gap: 80px;
+                            &>div{
+                                p{
+                                    margin: 15px 0;
+                                }
+                            }
+                        }
+                        .left{
+                            display: flex;
+                            align-items: center;
+                            gap: 10px;
+                            background: #E8FCED;
+                            border: 1px dotted #00A427;
+                            padding:10px 15px;
+                            border-radius: 10px;
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
